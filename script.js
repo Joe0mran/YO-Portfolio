@@ -2,8 +2,8 @@
 const WHATSAPP_NUMBER = '201204667925';
 const WA_MESSAGE = "Hi Yassin, I'd like to discuss a video for my product.\nProduct: \nHow I see it, my vision: \nReferences: \nBudget: \nGoal of the video: ";
 
-// Ranked 1 (highest) to 7 (lowest). Order here is the display order.
-const projects = [1, 2, 3, 4, 5, 6, 7].map(n => ({
+// Ranked 1 (highest) to 8 (lowest). Order here is the display order.
+const projects = [1, 2, 3, 4, 5, 6, 7, 8].map(n => ({
   rank: n,
   src: `${n}.mp4`,
   poster: `posters/${n}.jpg`,
